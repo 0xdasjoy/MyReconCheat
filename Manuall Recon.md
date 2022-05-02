@@ -11,26 +11,26 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 
 ## 🔥Subdomain Enumeration
 
-assetfinder --subs-only  <domain>
+- assetfinder --subs-only  <domain>
 
-httprobe (subdomain alive or dead)
-Take a list of domains and probe for working http and https servers.
+-httprobe (subdomain alive or dead)
+ Take a list of domains and probe for working http and https servers.
 
-cat recon/example/domains.txt | httprobe
-cat domains.txt | httprobe --prefer-https
+- cat recon/example/domains.txt | httprobe
+- cat domains.txt | httprobe --prefer-https
 
 ### 👉 GitDorker
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
 
-python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
+- python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
 
-EyeWitness
+## 🔥 EyeWitness
 
-./EyeWitness -f urls.txt --web
+- ./EyeWitness -f urls.txt --web
 
-./EyeWitness -x urls.xml --timeout 8 
+ -./EyeWitness -x urls.xml --timeout 8 
 
-./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
+- ./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
 
 ### 👉Content Discovery 
 
