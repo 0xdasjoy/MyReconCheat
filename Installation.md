@@ -20,7 +20,28 @@ mv go /bin/
 - cp httprobe /bin/   
 
 ## GitDorker 
+
 - git clone https://github.com/obheda12/GitDorker.git
+- chmod 755 * 
+- ./GitDorker.py
+- go to https://github.com/settings/tokens
+- create api key and paste in Tokenfile folder
+- Done
+
+## AQUATONE
+
+- wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip-2 
+-  unzip aquatone_linux_amd64_1.7.0.zip 
+-  cp aquatone /bin/    
+
+
+                            
+
+
+
+
+
+
 
 
 
