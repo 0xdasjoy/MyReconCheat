@@ -15,7 +15,7 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 
 ## 🔥Subdomain Enumeration
 
-assetfinder --subs-only  <domain>
+`assetfinder --subs-only`  <domain>
 
 #httprobe (subdomain alive or dead)
  
