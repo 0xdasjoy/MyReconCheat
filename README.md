@@ -19,9 +19,13 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 assetfinder --subs-only 
 ```
 
-#httprobe (subdomain alive or dead)
+# RustScan
+- rustscan 192.168.1.0/24 -t 500 -b 1500 -- -A
+
+## httprobe (subdomain alive or dead)
  
 Take a list of domains and probe for working http and https servers.
+
 ```
 - cat recon/example/domains.txt | httprobe
 - cat domains.txt | httprobe --prefer-https
