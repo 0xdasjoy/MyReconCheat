@@ -1,0 +1,24 @@
+Subdomain Enumeration
+
+assetfinder --subs-only  <domain>
+
+
+EyeWitness
+
+./EyeWitness -f urls.txt --web
+
+./EyeWitness -x urls.xml --timeout 8 
+
+./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
+
+Content Discovery
+
+
+gobuster dir -u https   -w /wordlists/shortlist.txt
+
+
+ printf example.com | gau
+$ cat domains.txt | gau --threads 5
+$ gau example.com google.com
+$ gau --o example-urls.txt example.com
+$ gau --blacklist png,jpg,gif example.com
