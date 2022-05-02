@@ -34,7 +34,14 @@ mv go /bin/
 -  unzip aquatone_linux_amd64_1.7.0.zip 
 -  cp aquatone /bin/    
 
+## Gobuster 
 
+```
+wget https://github.com/OJ/gobuster/releases/download/v3.1.0/gobuster-linux-amd64.7z
+7z x  gobuster-linux-amd64.7z
+cd  gobuster-linux-amd64/
+cp gobuster /bin/
+```
                             
 
 
