@@ -25,10 +25,12 @@ Take a list of domains and probe for working http and https servers.
 - cat domains.txt | httprobe --prefer-https
 
 ### 👉 GitDorker
+
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
-
-python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
-
+ 
+```
+ python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
+```
 EyeWitness
 
 ./EyeWitness -f urls.txt --web
