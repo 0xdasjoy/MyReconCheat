@@ -15,15 +15,15 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 
 ## 🔥Subdomain Enumeration
 
-`assetfinder --subs-only`  <domain>
+```assetfinder --subs-only  ```
 
 #httprobe (subdomain alive or dead)
  
 Take a list of domains and probe for working http and https servers.
-
+```
 - cat recon/example/domains.txt | httprobe
 - cat domains.txt | httprobe --prefer-https
-
+```
 ### 👉 GitDorker
 
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
@@ -35,9 +35,11 @@ EyeWitness
  
 ```
 ./EyeWitness -f urls.txt --web
-
+```
+```
 ./EyeWitness -x urls.xml --timeout 8 
-
+```
+```
 ./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
 ```
 ### 👉Content Discovery 
@@ -141,10 +143,11 @@ nuclei -list http_urls.txt -w workflows/wordpress-workflow.yaml
 ```
 
 # 👉 shodan:
-
+```
 country:US or org:"Harvard University" or hostname:"nasa.gov" 
 
 "authentication disabled" "RFB 003.008"
 
 Already Logged-In as root via Telnet 🔎 →
 "root@" port:23 -login -password -name -Session
+```
