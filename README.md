@@ -32,53 +32,56 @@ A Python program to scrape secrets from GitHub through usage of a large reposito
  python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
 ```
 EyeWitness
-
+ 
+```
 ./EyeWitness -f urls.txt --web
 
 ./EyeWitness -x urls.xml --timeout 8 
 
 ./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
-
+```
 ### 👉Content Discovery 
 
-
+```
 gobuster dir -u https   -w /wordlists/shortlist.txt
-
+```
 ## 🔥 gau
 About
 Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
 
- printf example.com | gau
+ ```printf example.com | gau
 $ cat domains.txt | gau --threads 5
 $ gau example.com google.com
 $ gau --o example-urls.txt example.com
 $ gau --blacklist png,jpg,gif example.com
-
+```
 ### 👉 GetJS
 
 About
 A tool to fastly get all javascript sources/files
 
 To save the results to a file, and don't display anything, use:
-
+```
 -  getJS --url https://poc-server.com --output results.txt
+
 If you would like the output to be in JSON format, you can combine it with @Tomnomnom's toJSON:
 
 $ getJS --url https://poc-server.com | tojson
+ ```
 
 ### 👉 Arjun (parameter finder)
 HTTP parameter discovery suite.
-
+```
 arjun -i targets.txt
  arjun  -u https://api.example.com/endpoint -oJ result.json
-
+```
 ## 🔥Fuzzing
 
 fuf - Fuzz Faster U Fool
 - wordlist:
 fuzzdb
 seclists
-
+```
 wfuzz -w wordlist/general/common.txt --hc 404 http://testphp.vulnweb.com/FUZZ
 
 wfuzz -w wordlist/general/common.txt http://testphp.vulnweb.com/FUZZ.php
@@ -90,31 +93,32 @@ wfuzz -z file,wordlist/general/common.txt -b cookie=value1 -b cookie2=value2 htt
 wfuzz -z list,nonvalid-httpwatch --basic FUZZ:FUZZ https://www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx
  
 fuzz -z file,wordlist/general/common.txt -H "User-Agent: FUZZ" http://testphp.vulnweb.com/
-
+```
 ## 🔥 ffuf - Fuzz
  - Faster U Fool
  
 Fast web fuzzer written in Go
-
+```
 ffuf -w /path/to/wordlist -u https://target/FUZZ
 
 ffuf -w /path/to/values.txt -u https://target/script.php?valid_name=FUZZ -fc 401 (filter response code 401)
  
 ffuf -w /path/to/postdata.txt -X POST -d "username=admin\&password=FUZZ" -u https://target/login.php
-
+```
 <summary><b>⚡ Gf-Patterns V 1.9  XSS, SSRF, SQLi,  <</b></summary>
 
 
 GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
+ 
+ ```
  cat subdomains.txt | waybackurls | sort -u >> waybackdata | gf ssrf | tee -a ssfrparams.txt
-
 ▶ cat waybackdata | gf redirect | tee -a redirect.txt
  cat ~/.gf/ssrf.json
  cat ~/.gf/lfi.json
   cat ~/.gf/sqli.jsoncat 
   ~/.gf/idor.json 
   cat ~/.gf/rce.json
-  
+  ```
   
  ### 👉 ReconNote
   
