@@ -128,9 +128,9 @@ GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interes
 ### 👉 Template Based Scanning
 
 Nuclei 
-About
+About // ``` text moddhe  ```
 Fast and customizable vulnerability scanner based on simple YAML based DSL.
-
+``` 
 nuclei -list urls.txt
 
 nuclei -u https://example.com -tags cve
@@ -138,7 +138,7 @@ nuclei -u https://example.com -tags cve
 nuclei -u https://example.com -tags cve -severity critical,high -author geeknik
 
 nuclei -list http_urls.txt -w workflows/wordpress-workflow.yaml
-
+```
 
 # 👉 shodan:
 
