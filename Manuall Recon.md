@@ -8,7 +8,7 @@ https://github.com/vavkamil/awesome-bugbounty-tools#Subdomain-Enumeration
 https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 
 
-<h1>Subdomain Enumeration <h1>
+## 🔥Subdomain Enumeration
 
 assetfinder --subs-only  <domain>
 
@@ -64,8 +64,7 @@ HTTP parameter discovery suite.
 arjun -i targets.txt
  arjun  -u https://api.example.com/endpoint -oJ result.json
 
-
-Fuzzing
+## 🔥Fuzzing
 
 fuf - Fuzz Faster U Fool
 wordlist:
@@ -104,12 +103,12 @@ GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interes
   cat ~/.gf/rce.json
   
   
-  ReconNote
+ ### 👉 ReconNote
   
   
 =====================================================================================================================================================
 
-Template Based Scanning
+### 👉 Template Based Scanning
 
 Nuclei 
 About
