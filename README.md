@@ -17,11 +17,12 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 
 assetfinder --subs-only  <domain>
 
-httprobe (subdomain alive or dead)
+#httprobe (subdomain alive or dead)
+ 
 Take a list of domains and probe for working http and https servers.
 
-cat recon/example/domains.txt | httprobe
-cat domains.txt | httprobe --prefer-https
+- cat recon/example/domains.txt | httprobe
+- cat domains.txt | httprobe --prefer-https
 
 ### 👉 GitDorker
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
