@@ -18,6 +18,10 @@ Take a list of domains and probe for working http and https servers.
 
 ` cat recon/example/domains.txt | httprobe '
 'cat domains.txt | httprobe --prefer-https'
+ 
+ ## RustScan
+ 
+ - rustscan 192.168.1.0/24 -t 500 -b 1500 -- -A
 
 ### 👉 GitDorker
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
