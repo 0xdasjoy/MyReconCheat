@@ -1,4 +1,4 @@
-### ALL SHOULD BE DONE IN ROOT PREVILEDGE
+### 🛠 &nbsp;ALL SHOULD BE DONE IN ROOT PREVILEDGE
 
 ## GO
 ```
@@ -82,3 +82,5 @@ cp nuclei /bin/
                                             
 ```
 
+
+### 👨🏻‍💻 &nbsp;Do magic by coping all tools item in  this path : `/bin/` 
