@@ -1,7 +1,7 @@
 <h1 align="center">Hi , I'm Sanjay Kumar Das <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
  
-   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Science+Student;Competitive+Programmer;ACPC+2021+Finalist;DS%20|%20Algorithms%20|%20OOP%20;Specialist%20on%20Codeforces;Division%202%20on%20Codechef%20(3%20Stars);6%20Kyu%20on%20Atcoder;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Science+Student;Ethical+Hacker;ACPC+2021+Finalist;DS%20|%20Algorithms%20|%20OOP%20;Specialist%20on%20Codeforces;Division%202%20on%20Codechef%20(3%20Stars);6%20Kyu%20on%20Atcoder;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 
 https://github.com/vavkamil/awesome-bugbounty-tools#Subdomain-Enumeration
@@ -31,7 +31,7 @@ EyeWitness
 
 ./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
 
-Content Discovery
+<summary><b>⚡ Content Discovery </b></summary>
 
 
 gobuster dir -u https   -w /wordlists/shortlist.txt
@@ -90,7 +90,8 @@ ffuf -w /path/to/wordlist -u https://target/FUZZ
 ffuf -w /path/to/values.txt -u https://target/script.php?valid_name=FUZZ -fc 401 (filter response code 401)
 ffuf -w /path/to/postdata.txt -X POST -d "username=admin\&password=FUZZ" -u https://target/login.php
 
-Gf-Patterns V 1.9  XSS, SSRF, SQLi, 
+<summary><b>⚡ Gf-Patterns V 1.9  XSS, SSRF, SQLi,  <</b></summary>
+
 
 GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs) parameters grep
  cat subdomains.txt | waybackurls | sort -u >> waybackdata | gf ssrf | tee -a ssfrparams.txt
