@@ -1,7 +1,7 @@
 <h1 align="center">Hi , I'm Sanjay Kumar Das <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
  
-   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Computer+Science+Student;Ethical+Hacker;ACPC+2021+Finalist;DS%20|%20Algorithms%20|%20OOP%20;Specialist%20on%20Codeforces;Division%202%20on%20Codechef%20(3%20Stars);6%20Kyu%20on%20Atcoder;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
+   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Cyber+Security+Student;Ethical+Hacker;Defcon+2021+Finalist;DS%20|%20Algorithms%20|%20OOP%20;Specialist%20on%20Codeforces;Division%202%20on%20Codechef%20(3%20Stars);6%20Kyu%20on%20Atcoder;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
 </p>
 
 https://github.com/vavkamil/awesome-bugbounty-tools#Subdomain-Enumeration
@@ -18,7 +18,7 @@ Take a list of domains and probe for working http and https servers.
 cat recon/example/domains.txt | httprobe
 cat domains.txt | httprobe --prefer-https
 
-GitDorker
+### 👉 GitDorker
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
 
 python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
@@ -31,7 +31,7 @@ EyeWitness
 
 ./EyeWitness.py -f urls.txt --web --proxy-ip 127.0.0.1 --proxy-port 8080 --proxy-type socks5 --timeout 120
 
-<summary><b>⚡ Content Discovery </b></summary>
+### 👉Content Discovery 
 
 
 gobuster dir -u https   -w /wordlists/shortlist.txt
@@ -46,7 +46,7 @@ $ gau example.com google.com
 $ gau --o example-urls.txt example.com
 $ gau --blacklist png,jpg,gif example.com
 
-GetJS
+### 👉 GetJS
 
 About
 A tool to fastly get all javascript sources/files
@@ -58,7 +58,7 @@ If you would like the output to be in JSON format, you can combine it with @Tomn
 
 $ getJS --url https://poc-server.com | tojson
 
-Arjun (parameter finder)
+### 👉 Arjun (parameter finder)
 HTTP parameter discovery suite.
 
 arjun -i targets.txt
@@ -124,7 +124,7 @@ nuclei -u https://example.com -tags cve -severity critical,high -author geeknik
 nuclei -list http_urls.txt -w workflows/wordpress-workflow.yaml
 
 
-shodan:
+# 👉 shodan:
 
 country:US or org:"Harvard University" or hostname:"nasa.gov" 
 
