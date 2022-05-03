@@ -27,7 +27,7 @@ assetfinder --subs-only  | tee subs.txt
 Take a list of domains and probe for working http and https servers.
 
 ```
-- cat recon/example/domains.txt | httprobe
+- cat domains.txt | httprobe | tee alive.txt
 - cat domains.txt | httprobe --prefer-https
 ```
 ### 👉 GitDorker
@@ -35,7 +35,9 @@ Take a list of domains and probe for working http and https servers.
 A Python program to scrape secrets from GitHub through usage of a large repository of dorks.
  
 ```
- python3 GitDorker.py -tf TOKENSFILE -q tesla.com -d Dorks/DORKFILE -o tesla
+ python3 GitDorker.py -t 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 -q alexamerican.com -d Dorks/medium_dorks.txt -o tesla
+ 
+
 ```
 EyeWitness
  
