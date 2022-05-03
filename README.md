@@ -16,7 +16,7 @@ https://www.cobalt.io/blog/scope-based-recon-smart-recon-tactics
 ## 🔥Subdomain Enumeration
 
 ```
-assetfinder --subs-only 
+assetfinder --subs-only  | tee subs.txt  
 ```
 
 # RustScan
